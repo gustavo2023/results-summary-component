@@ -147,7 +147,7 @@ main {
   background-color: var(--white);
   border-radius: 2rem; 
   box-shadow: 0 1.875rem 3.75rem rgba(61, 108, 236, 0.15); 
-  max-width: 46rem; 
+  max-width: 54rem; 
   width: 100%;
 }
 
@@ -204,7 +204,7 @@ main {
 }
 
 .card__result-description {
-  max-width: 16.25rem; 
+  max-width: 35ch; 
   font-weight: 500;
 }
 
@@ -311,10 +311,15 @@ main {
     flex-direction: column;
     border-radius: 0;
     box-shadow: none;
+    width: 100%;
   }
 
   .card__result {
     border-radius: 0 0 2rem 2rem;
+  }
+
+  .card__result-description {
+    max-width: none;
   }
 
   .card__summary {
